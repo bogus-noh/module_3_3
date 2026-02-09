@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Write",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(cp:*)",
+      "{\n  \"permissions\": {\n    \"allow\": [\n      \"Edit\",\n      \"Write\",\n      \"Bash(mkdir:*)\",\n      \"Bash(touch:*)\",\n      \"Bash(cp:*)\",\n      \"Bash(mv:*)\",\n      \"Bash(cat:*)\",\n      \"Bash(ls:*)\",\n      \"Bash(cd:*)\",\n      \"Bash(pwd)\",\n      \"Bash(npm:*)\",\n      \"Bash(npx:*)\",\n      \"Bash(node:*)\",\n      \"Bash(pip:*)\",\n      \"Bash(uv:*)\",\n      \"Bash(git:*)\",\n      \"Bash(gh:*)\",\n      \"Bash(python:*)\",\n      \"Bash(code:*)\",\n      \"Bash(echo:*)\",\n      \"Bash(head:*)\",\n      \"Bash(tail:*)\",\n      \"Bash(grep:*)\",\n      \"Bash(find:*)\",\n      \"Bash(which:*)\"\n    ],\n    \"deny\": [\n      \"Bash(rm -rf:*)\",\n      \"Bash(sudo:*)\",\n      \"Bash(curl:*)\",\n      \"Bash(wget:*)\",\n      \"Read(./.env)\",\n      \"Read(./.env.*)\",\n      \"Read(./secrets/**)\",\n      \"Bash(git push --force:*)\",\n      \"Bash(git reset --hard:*)\",\n      \"Bash(gh repo delete:*)\"\n    ],\n    \"ask\": [\n      \"Bash(rm:*)\"\n    ]\n  }\n}"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)"
+    ],
+    "ask": [
+      "Bash(rm:*)"
+    ]
+  }
+}
