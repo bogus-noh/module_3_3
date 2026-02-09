@@ -24,7 +24,7 @@
 # 의존성 설치
 npm install
 
-# 개발 서버 시작 (localhost:3000)
+# 개발 서버 시작 (localhost:3010)
 npm run dev
 
 # 프로덕션 빌드
